@@ -1,7 +1,7 @@
 
 document.getElementById("dayZero").addEventListener("click", function() {
     event.preventDefault();
-    var dayZero = new Date("Nov 3, 2023 00:00:00").getTime();
+    var dayZero = new Date("Oct 3, 2023 00:00:00").getTime();
     var xZero = setInterval(function(){
     var now = new Date().getTime();
     var distance = dayZero - now;
@@ -23,7 +23,7 @@ document.getElementById("dayZero").addEventListener("click", function() {
 
 document.getElementById("dayOne").addEventListener("click", function() {
     event.preventDefault();
-    var dayOne = new Date("Nov 4, 2023 00:00:00").getTime();
+    var dayOne = new Date("Oct 4, 2023 00:00:00").getTime();
     var xOne = setInterval(function(){
     var now = new Date().getTime();
     var distance = dayOne - now;
@@ -44,7 +44,7 @@ document.getElementById("dayOne").addEventListener("click", function() {
 
 document.getElementById("dayTwo").addEventListener("click", function() {
     event.preventDefault();
-    var dayTwo = new Date("Nov 5, 2023 00:00:00").getTime();
+    var dayTwo = new Date("Oct 5, 2023 00:00:00").getTime();
     var xTwo = setInterval(function(){
     var now = new Date().getTime();
     var distance = dayTwo - now;
